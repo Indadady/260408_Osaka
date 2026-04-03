@@ -16,10 +16,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[투어메이커] 식도락 오사카/나라/교토/고베 4일 (4/8 출발)</title>
     
-    <!-- Open Graph: 카톡 공유시 보여질 썸네일 -->
-    <meta property="og:title" content="[투어메이커] 식도락 오사카&간사이 4대 도시 완전정복 (4/8)">
-    <meta property="og:description" content="인천공항에서 가이드 동행 / 2대 특식 / 롯코산 케이블카 / 온천욕 포함">
-    <meta property="og:image" content="https://tse2.mm.bing.net/th/id/OIP.PYLsQzIX584LbEDTm84f5QHaE8?w=474&h=379&c=7&p=0">
+    <!-- Open Graph: 카톡 공유시 보여질 썸네일 (요청하신 랜덤 3종 중 1개 적용) -->
+    <meta property="og:title" content="[투어메이커] 식도락 오사카&간사이 4대 도시 완전정복 (4/8 확정)">
+    <meta property="og:description" content="가이드/호텔 확정 안내 | 2대 특식 | 롯코산 케이블카 | 온천욕 포함">
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/a/AVvXsEhGuZrAyWumLFwHek7ioWf8ymhR1D09oemR6FvZDjx2cS-v-cTj9zwxW8Ip4I9AX5c9Da7bqYe3j-wI5H0b8Ioci2LrMDFg3Mgingu0KcsclfIUTE2D1Vt5JyCsLw6XfZ3nV7xYXfnCJPEA4PUGf97gvaByWQgMPE7jKbDAVV2HgkID94oOxxGHNwajh5U">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -122,7 +122,7 @@
                 </p>
 
                 <!-- 4대 핵심 포인트 강조 -->
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 w-full max-w-4xl mb-10">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 w-full max-w-4xl mb-16 md:mb-20">
                     <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-3 md:p-4 flex flex-col items-center justify-center hover:bg-white/20 transition-all">
                         <i class="fa-solid fa-utensils text-yellow-300 text-2xl md:text-3xl mb-2"></i>
                         <span class="text-xs md:text-sm font-bold text-white">2대 특식 제공</span>
@@ -144,9 +144,39 @@
                         <span class="text-[10px] text-slate-300">오사카/나라/교토/고베</span>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="animate-bounce mt-4">
-                    <i class="fa-solid fa-chevron-down text-2xl text-white/70"></i>
+        <!-- 확정 안내 데스크 (새로 추가된 섹션) -->
+        <section class="relative -mt-12 z-20 px-4 max-w-5xl mx-auto mb-10">
+            <div class="bg-white rounded-2xl shadow-xl p-6 border border-pink-100">
+                <h3 class="text-lg font-bold text-slate-800 mb-4 flex items-center">
+                    <i class="fa-solid fa-clipboard-check text-pink-600 mr-2 text-xl"></i> 확정 투어 인포메이션
+                </h3>
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-4 text-sm">
+                    <div class="bg-pink-50 p-3 rounded-xl border border-pink-100">
+                        <p class="text-xs text-slate-500 mb-1">담당 가이드</p>
+                        <p class="font-bold text-slate-800 text-base">정난영 가이드</p>
+                    </div>
+                    <div class="bg-pink-50 p-3 rounded-xl border border-pink-100 col-span-2 md:col-span-1">
+                        <p class="text-xs text-slate-500 mb-1">연락처</p>
+                        <p class="font-bold text-pink-600 text-base"><a href="tel:01032059221">010-3205-9221</a></p>
+                    </div>
+                    <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+                        <p class="text-xs text-slate-500 mb-1">차량</p>
+                        <p class="font-bold text-slate-800">대형버스</p>
+                    </div>
+                    <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+                        <p class="text-xs text-slate-500 mb-1">행사 인원</p>
+                        <p class="font-bold text-slate-800">22명 + TG</p>
+                    </div>
+                    <div class="bg-indigo-50 p-3 rounded-xl border border-indigo-100 col-span-2 md:col-span-5">
+                        <p class="text-xs text-slate-500 mb-1">확정 호텔</p>
+                        <p class="font-bold text-slate-800 flex flex-col md:flex-row md:gap-6 mt-1">
+                            <span class="mb-1 md:mb-0"><i class="fa-solid fa-bed text-pink-500 mr-1"></i> 가나 혼마치 키타센바 (1~2박)</span>
+                            <span><i class="fa-solid fa-bed text-indigo-500 mr-1"></i> 이즈미사노센터 호텔 (3박)</span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -223,7 +253,7 @@
                                         </li>
                                         <li class="flex items-start">
                                             <span class="font-bold w-16 shrink-0 text-slate-600">미팅장소</span>
-                                            <span>인천국제공항 <strong class="text-slate-900 bg-yellow-200 px-1">제2터미널 3층 출국장</strong><br><span class="text-xs text-slate-500">(정확한 위치는 출발 2-3일 전 가이드가 개별 연락드립니다)</span></span>
+                                            <span>인천국제공항 <strong class="text-slate-900 bg-yellow-200 px-1">제2터미널 3층 출국장</strong><br><span class="text-xs text-slate-500">(정확한 위치는 정난영 가이드님이 개별 연락드립니다)</span></span>
                                         </li>
                                         <li class="flex items-start">
                                             <span class="font-bold w-16 shrink-0 text-slate-600">항공편</span>
@@ -233,7 +263,7 @@
                                 </div>
                                 <div class="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
                                     <p class="font-bold text-blue-800 text-sm mb-1"><i class="fa-solid fa-bus text-blue-600 mr-1"></i> 현지 도착 시 바로 일정 시작</p>
-                                    <p class="text-xs text-blue-700 leading-relaxed">수하물 수취 후 가이드 인솔에 따라 전용차량에 탑승하여 바로 나라(Nara) 관광지로 이동합니다.</p>
+                                    <p class="text-xs text-blue-700 leading-relaxed">수하물 수취 후 가이드 인솔에 따라 대형 전용버스를 탑승하여 바로 나라(Nara) 관광지로 이동합니다.</p>
                                 </div>
                             </div>
                         </div>
@@ -357,7 +387,7 @@
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-pink-500 rounded-full ring-4 ring-slate-50"></span>
                                 <span class="text-pink-600 font-bold text-sm">09:05</span>
                                 <p class="text-slate-800 font-medium">오사카 간사이공항 도착</p>
-                                <p class="text-xs text-slate-500 mt-1">입국수속 후 가이드와 함께 전용차량 탑승</p>
+                                <p class="text-xs text-slate-500 mt-1">입국수속 후 가이드와 함께 전용 대형버스 탑승</p>
                             </li>
                             <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-pink-500 rounded-full ring-4 ring-slate-50"></span>
@@ -378,7 +408,7 @@
                             </li>
                             <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-slate-500 rounded-full ring-4 ring-slate-50"></span>
-                                <p class="text-slate-800 font-medium">호텔 투숙 (Garner Hotel Osaka Honmachi 예정)</p>
+                                <p class="text-slate-800 font-medium">호텔 투숙 (가나 혼마치 키타센바 확정)</p>
                             </li>
                         </ul>
                     </div>
@@ -410,7 +440,7 @@
                                 <p class="text-sm text-slate-600 mt-1">여행의 피로를 푸는 힐링 시간 (입욕권 및 타올 포함)</p>
                             </li>
                             <li class="relative"><span class="absolute -left-[31px] top-1 w-4 h-4 bg-purple-500 rounded-full ring-4 ring-slate-50"></span><p class="text-slate-800 font-medium">🍽️ 석식: 현지식</p></li>
-                            <li class="relative"><span class="absolute -left-[31px] top-1 w-4 h-4 bg-slate-500 rounded-full ring-4 ring-slate-50"></span><p class="text-slate-800 font-medium">호텔 투숙 (Garner Hotel Osaka Honmachi 예정)</p></li>
+                            <li class="relative"><span class="absolute -left-[31px] top-1 w-4 h-4 bg-slate-500 rounded-full ring-4 ring-slate-50"></span><p class="text-slate-800 font-medium">호텔 투숙 (가나 혼마치 키타센바 확정)</p></li>
                         </ul>
                     </div>
                     <!-- Day 3 -->
@@ -438,7 +468,7 @@
                                 <p class="text-slate-800 font-medium text-purple-700">🍽️ 석식: 자유식 (식사비 1,000엔 지급)</p>
                                 <p class="text-xs text-slate-500 mt-1">모자이크 쇼핑몰 내에서 자유롭게 취향에 맞게 드세요.</p>
                             </li>
-                            <li class="relative"><span class="absolute -left-[31px] top-1 w-4 h-4 bg-slate-500 rounded-full ring-4 ring-slate-50"></span><p class="text-slate-800 font-medium">간사이 공항 인근으로 이동 후 호텔 투숙 (Izumisano Center Hotel 예정)</p></li>
+                            <li class="relative"><span class="absolute -left-[31px] top-1 w-4 h-4 bg-slate-500 rounded-full ring-4 ring-slate-50"></span><p class="text-slate-800 font-medium">간사이 공항 인근으로 이동 후 호텔 투숙 (이즈미사노센터 호텔 확정)</p></li>
                         </ul>
                     </div>
                     <!-- Day 4 -->
@@ -482,8 +512,8 @@
                                 <span class="absolute top-4 left-4 bg-pink-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow">1~2일차</span>
                             </div>
                             <div class="p-6">
-                                <h3 class="text-lg font-bold text-slate-800 mb-1">가너 호텔 오사카 혼마치</h3>
-                                <p class="text-xs text-slate-500 mb-4">(Garner Hotel Osaka Honmachi) 예정</p>
+                                <h3 class="text-lg font-bold text-slate-800 mb-1">가나 혼마치 키타센바</h3>
+                                <p class="text-xs text-blue-600 font-bold mb-4">(Garner Hotel Osaka Honmachi Kita Senba) 확정</p>
                                 <ul class="space-y-2 text-sm text-slate-600">
                                     <li class="flex items-start"><i class="fa-solid fa-check text-pink-500 mt-1 mr-2"></i>오사카 시내 중심(혼마치) 위치로 뛰어난 접근성</li>
                                     <li class="flex items-start"><i class="fa-solid fa-check text-pink-500 mt-1 mr-2"></i>모던하고 깔끔한 객실 컨디션</li>
@@ -498,8 +528,8 @@
                                 <span class="absolute top-4 left-4 bg-indigo-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow">3일차</span>
                             </div>
                             <div class="p-6">
-                                <h3 class="text-lg font-bold text-slate-800 mb-1">이즈미사노 센터 호텔</h3>
-                                <p class="text-xs text-slate-500 mb-4">(Izumisano Center Hotel) 예정</p>
+                                <h3 class="text-lg font-bold text-slate-800 mb-1">이즈미사노센터 호텔</h3>
+                                <p class="text-xs text-blue-600 font-bold mb-4">(Izumisano Center Hotel) 확정</p>
                                 <ul class="space-y-2 text-sm text-slate-600">
                                     <li class="flex items-start"><i class="fa-solid fa-check text-indigo-500 mt-1 mr-2"></i>간사이 공항과 인접하여 마지막 날 이동 부담 최소화</li>
                                     <li class="flex items-start"><i class="fa-solid fa-check text-indigo-500 mt-1 mr-2"></i>쾌적한 휴식 공간 제공</li>
@@ -508,8 +538,8 @@
                         </div>
                     </div>
                     
-                    <div class="mt-6 bg-white p-4 rounded-xl border border-slate-200 text-xs text-slate-500 text-center shadow-sm">
-                        ※ 현지 객실 상황에 따라 동급의 다른 호텔로 변경될 수 있습니다. (출발 2~3일 전 최종 확정)
+                    <div class="mt-6 bg-white p-4 rounded-xl border border-slate-200 text-xs text-slate-600 font-bold text-center shadow-sm">
+                        ※ 상기 기재된 호텔로 전 일정 최종 확정되었습니다.
                     </div>
                 </div>
             </div>
@@ -539,12 +569,19 @@
                         <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
                             <h3 class="font-bold mb-4 text-slate-800">📞 비상 연락망</h3>
                             <div class="grid grid-cols-1 gap-4 text-sm">
+                                <div class="bg-pink-50 p-3 rounded hover:bg-pink-100 transition-colors flex items-center justify-between border border-pink-100">
+                                    <div>
+                                        <p class="text-pink-600 font-bold text-xs mb-1">담당 가이드</p>
+                                        <span class="font-bold text-slate-800">정난영 님</span>
+                                    </div>
+                                    <a href="tel:01032059221" class="font-bold text-pink-600 text-lg">010-3205-9221</a>
+                                </div>
                                 <div class="bg-slate-50 p-3 rounded hover:bg-slate-100 transition-colors flex items-center justify-between border border-slate-100">
                                     <div>
-                                        <p class="text-slate-500 text-xs mb-1">투어메이커 담당자</p>
+                                        <p class="text-slate-500 text-xs mb-1">투어메이커 기획</p>
                                         <span class="font-bold text-slate-800">이원춘</span>
                                     </div>
-                                    <a href="tel:01053737223" class="font-bold text-pink-600 text-lg">010-5373-7223</a>
+                                    <a href="tel:01053737223" class="font-bold text-slate-600 text-base">010-5373-7223</a>
                                 </div>
                                 <div class="bg-slate-50 p-3 rounded hover:bg-slate-100 transition-colors flex items-center justify-between border border-slate-100">
                                     <div>
@@ -571,12 +608,12 @@
             <a href="#visitjapan" class="flex flex-col items-center gap-1 text-sky-600"><i class="fa-solid fa-passport text-lg"></i>입국준비</a>
             <a href="#map-section" class="flex flex-col items-center gap-1 text-indigo-600"><i class="fa-solid fa-map-location-dot text-lg"></i>동선</a>
             <a href="#timeline" class="flex flex-col items-center gap-1"><i class="fa-regular fa-calendar-days text-lg"></i>일정</a>
-            <a href="#assistant" class="flex flex-col items-center gap-1 text-yellow-600"><i class="fa-solid fa-briefcase text-lg"></i>준비물</a>
+            <a href="#assistant" class="flex flex-col items-center gap-1 text-yellow-600"><i class="fa-solid fa-briefcase text-lg"></i>비서</a>
         </div>
 
     </main>
 
-    <!-- Footer (원복) -->
+    <!-- Footer -->
     <footer class="bg-slate-900 text-slate-400 py-16 text-center text-sm border-t border-slate-800">
         <div class="container mx-auto px-4">
             
@@ -603,6 +640,11 @@
                 <p class="text-[10px] text-slate-600 mt-4">
                     &copy; 2026 Tourmaker. All Rights Reserved.
                 </p>
+
+                <!-- Tourmaker System Powered Box -->
+                <div style="background-color: #f8f9fa; font-size: 12px; text-align: center; color: #6c757d; padding: 15px; border-radius: 8px; margin-top: 20px;">
+                    [System Powered by TOURMAKER] 본 스마트 가이드북은 <strong>투어메이커</strong>의 기획과 <a href="https://tourmaker.kr" target="_blank" style="color: #6c757d; text-decoration: underline; font-weight: bold;">투어메이커</a>의 트래블 테크 기술 제휴로 제작되었습니다.
+                </div>
             </div>
         </div>
     </footer>
@@ -616,7 +658,7 @@
             kix: { title: '간사이 국제공항', lat: 34.4320, lng: 135.2304, icon: '✈️' },
             nara: { title: '나라 사슴공원/동대사', lat: 34.6851, lng: 135.8430, icon: '🦌' },
             dotonbori: { title: '도톤보리/신사이바시', lat: 34.6687, lng: 135.5013, icon: '🐙' },
-            hotel_osaka: { title: '가너 호텔 오사카 혼마치', lat: 34.6826, lng: 135.5002, icon: '🏨' },
+            hotel_osaka: { title: '가나 혼마치 키타센바', lat: 34.6826, lng: 135.5002, icon: '🏨' },
             kiyomizu: { title: '교토 청수사', lat: 34.9948, lng: 135.7850, icon: '🏯' },
             arashiyama: { title: '아라시야마', lat: 35.0094, lng: 135.6668, icon: '🎋' },
             onsen: { title: '외부 온천욕', lat: 34.8500, lng: 135.6000, icon: '♨️' }, // 대략적인 중간 지점
@@ -624,7 +666,7 @@
             sake: { title: '사와노츠루 사케 박물관', lat: 34.7042, lng: 135.2341, icon: '🍶' },
             rokko: { title: '롯코산 전망대', lat: 34.7573, lng: 135.2359, icon: '🚠' },
             harbor: { title: '고베 하버랜드', lat: 34.6797, lng: 135.1837, icon: '🎡' },
-            hotel_kix: { title: '이즈미사노 센터 호텔', lat: 34.4101, lng: 135.3175, icon: '🏨' },
+            hotel_kix: { title: '이즈미사노센터 호텔', lat: 34.4101, lng: 135.3175, icon: '🏨' },
             
             // 바다 횡단을 막기 위한 투명 경유지 (아이콘 없음)
             wp_kix_bridge: { lat: 34.4100, lng: 135.2900 }, // 간사이공항 연락교 진입점
@@ -797,7 +839,7 @@
         document.getElementById("day1").style.display = "block";
 
         // Checklist 
-        const PREFIX = 'tm_Osaka_20260408_v4_';
+        const PREFIX = 'tm_Osaka_20260408_v5_'; // 버전 넘버 업데이트 (기존 캐시 충돌 방지)
         const checklistData = [
             { id: 'pass', text: '여권 (유효기간 6개월 이상 필수)' },
             { id: 'vjw', text: '비짓재팬웹 QR코드 캡쳐본' },
